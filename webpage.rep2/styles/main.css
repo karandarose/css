@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  top: 0;
+  width: 100%;
+  background-color: rgb(1, 1, 67);
+  /* position: absolute; */
+  z-index: 1;
+  display: block;
+  position: fixed;
+}
+.logo {
+  padding-left: 45%;
+  height: 150px;
+  width: 100px;
+}
+.large-logo {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  left: 50%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+}
+video {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.hero {
+  margin-top: 150px;
+  position: relative;
+}
